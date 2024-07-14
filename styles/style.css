@@ -53,6 +53,7 @@ header > nav {
 .bannerdes{
     font-weight: 400;
     font-size: 16px;
+    color: rgba(13, 19, 33, 1);
 }
 .btn1{
     background-color: black;
@@ -64,4 +65,93 @@ header > nav {
 }
 .img1{
     width: 240px;
+}
+ /* main style  */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+
+ /* about styles */
+ .section-bg{
+    background-color: rgba(13, 19, 33, 0.02);
+ }
+ .section-title{
+    font-weight: bolder;
+    font-size: 32px;
+    color: #0D1321;
+ }
+ .aboutdes{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.68);
+ }
+ .about{
+    border-radius: 16px;
+    padding: 80px 97px;
+    text-align: center;
+    margin-top: 62px;
+ }
+
+ .about-itmes{
+    display: flex;
+    justify-content: space-between;
+    max-width: 946px;
+    /* margin: 48px 47px;  */
+    margin-top: 48px;
+    margin-bottom: 32px; 
+
+    padding: 48px 48px;
+    color: #FFFFFF;
+
+ }
+.about-item1{
+    text-align: left;
+}
+ .item1-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.68);
+    /* text-align: left;   */
+    max-width: 477px;
+ }
+ .item1des{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.68);
+    text-align: left;
+ }
+.btn2{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 0.68);
+    padding: 10px 25px;
+    border: 1px solid rgba(13, 19, 33, 0.68) ;
+    border-radius: 0;
+}
+.about-itmes2{
+    display: flex;
+    justify-content: space-around;
+    max-width: 946px;
+    /* margin: 48px 47px;  */
+    margin-top: 32px;
+    color: #FFFFFF;
+    padding: 48px 48px;
+}
+.about-item2{
+    text-align: left;
+}
+.about-itmes3{
+    display: flex;
+    justify-content: space-between;
+    max-width: 946px;
+    /* margin: 48px 47px;  */
+    margin-top: 32px;
+    color: #FFFFFF;
+    padding: 48px 48px;
+
+}
+.about-item3{
+    text-align: left;
 }
