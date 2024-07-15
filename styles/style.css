@@ -213,26 +213,53 @@ header > nav {
 .ht{
     text-align: left;
     background-color: rgba(255, 76, 30, 0.05);
-    /* max-width: 364px;  */
-     padding: 40px; 
-    /* margin: 48px 24px;  */
+     padding: 40px;
     border-radius: 16px;
 }
 .cs{
     text-align: left;
     background-color: rgba(0, 76, 232, 0.05);
-    /* max-width: 364px;  */
     padding: 40px; 
-    /* margin: 48px 24px;  */
     border-radius: 16px;
 }
 .javascript{
     text-align: left;
     background-color: rgba(255, 223, 0, 0.05);
-    /* max-width: 364px;  */
     padding: 40px; 
-    /* margin: 48px 24px;  */
     border-radius: 16px;
 }
+.next{
+    margin-top: 111px;
+}
+.section4-text{
+    text-align: center;
+    padding: 0 97px;
+}
+.sub-next{
+    margin-top: 48px;
+}
+.pic2{
+    width: 120px;
+    height: 90px;
+}
+.pic3{
+    width: 143px;
+    height: 88px;
 
+}
+.pic4{
+    width: 108px;
+    height: 108px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-style: groove;
+    border-radius: 16px;
+    border-width: 1px;
+}
 
