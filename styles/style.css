@@ -263,3 +263,79 @@ header > nav {
     border-width: 1px;
 }
 
+.foot1{
+    background-image: url("../assets/handshake.jpg");
+    margin: 0px 150px 100px 150px; 
+    width: 1080px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 64px 48px;
+    border-radius: 16px;
+    
+}
+.footer{
+    text-align: center;
+    padding: 24px 48px;
+    margin-top: 0;
+}
+.foot-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+.foot-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer  input[type="text"]{
+    width: 500px;
+    height: 22px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 19px;
+    border: none;
+    text-align: left;
+}
+input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.68);
+}
+.btn4{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 20px;
+    border-radius: 5px;
+    border: solid white;
+
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 32px 35px 20px 35px;
+    margin-top: 60px;
+    
+    
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(13, 19, 33, 1);
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+

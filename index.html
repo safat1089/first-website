@@ -22,7 +22,7 @@
             <div class="bannertext">
                 <h2 class="bannertitle">"In the near future, I hope to become a Developer."</h2>
                 <p class="bannerdes">Building responsive, user-friendly websites that bring your ideas to life, enhance your online presence, and contribute to financial stability.</p>
-                <button class="btn1">Contact with me</button>
+                <button class="btn1" onclick="document.getElementById('foots').scrollIntoView({ behavior: 'smooth' });">Contact with me</button>
             </div>
         </div>
         </div>
@@ -58,14 +58,14 @@
                 <img src="assets/Group 4.png" alt="" class="img2">
             </div>
         </section>
-        <section class="inspiration section-bg">
+        <section class="inspiration">
             <div class="section2">
             <h2 class="section-title">My Inspiration</h2>
             <p class="aboutdes">Web development isn't just about building websites; it's about creating experiences that can change the world, one line of code at a time.</p>
             </div>
             <iframe class="youtube" width="1076" height="500" src="https://www.youtube.com/embed/i4laq6e_B6U?si=eVQuz8mhPABNTzjl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </section>
-        <section class="target section-bg">
+        <section class="target">
             <div class="section3-text">
                 <h2 class="section-title">My Current Target</h2>
                 <p class="aboutdes">Mastering HTML, CSS, JavaScript, and GitHub is your gateway to becoming a versatile web developer, capable of building dynamic and collaborative digital experiences.</p>  
@@ -123,7 +123,30 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="foot" id="foots">  
+        <div class="foot1">
+        <div class="footer">
+            <h4 class="foot-title">I need Support</h4>
+            <p class="foot-para">Give me your valuable advice in my web development journey, I will try to utilize your guideline. Thank you.</p>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Suggest me any feedback for me">
+                    <input class="btn4" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="footer-bottom section-bg">
+            <span class="footer-text">An Open Commitment by Safat Rahman</span>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="">
+                </a>
+                <a href="https://github.com/"><img src="assets/github.png" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/safat-rahman-chowdhury-b38b79307/"><img src="assets/linkedin-icon 1.png" alt="">
+                </a>
+            </div>
+        </div>
 
     </footer>
 </body>
